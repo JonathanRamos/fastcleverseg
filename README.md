@@ -8,7 +8,8 @@ We have used five MRI datasets, with respective manual segmentation (gold standa
 
 To assure the best conditions to all segmentation algorithms, since the majority of the original exams have 65,536 gray levels (16 bits/pixel), we normalized the gray-scale of the exams into 256 intensities ($v_i \in [1, 256]$, 8 bits/pixel):
 
-<img src="https://render.githubusercontent.com/render/math?math=V = 256 \times \frac{V - \min v_i}{\max v_i - \min v_i} \ ,   \ \forall v_i \in V, \ i \in \{1, 2, 3, ... ,n\} , \ n = M \times N \times Z \ ,">
+<img src="https://render.githubusercontent.com/render/math?math={V = 256 \times \frac{V - \min v_i}{\max v_i - \min v_i} \ ,   \ \forall v_i \in V, \ i \in \{1, 2, 3, ... ,n\} , \ n = M \times N \times Z \ ,}#gh-light-mode-only">
+<img src="https://render.githubusercontent.com/render/math?math={V = 256 \times \frac{V - \min v_i}{\max v_i - \min v_i} \ ,   \ \forall v_i \in V, \ i \in \{1, 2, 3, ... ,n\} , \ n = M \times N \times Z \ ,}#gh-dark-mode-only">
 
 in which $V$ represents the data volume of the exam.
 All MRIs were normalized to the isotropic spatial resolution ($1 \times 1 \times 1 \ \textrm{mm}^3$), employing a trilinear interpolation.
