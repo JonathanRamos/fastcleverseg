@@ -1,6 +1,6 @@
 
 
-# Vertebral Bodies
+# Vertebral Bodies (VB)
 
 We assembled a dataset of vertebral bodies with a total of 94 MRI exams with corresponding manual segmentation. We compose a dataset with a more significant number of exams as follows.
 
