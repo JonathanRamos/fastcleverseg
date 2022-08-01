@@ -6,11 +6,7 @@
 - Then, we present an [intervertebral discs dataset](https://doi.org/10.21037/qims.2016.08.01), available at [IVD](IVD/readme.md).
 - Finally, we assembled three datasets of vertebral bodies ([1](https://doi.org/10.1111/cgf.12343), [2](https://doi.org/10.1186/s12891-019-2528-x), [3](https://doi.org/10.1371/journal.pone.0143327)), available at [VBs](VBs/readme.md).
 
-<p>Therefore, we used the typical number of MRI scans and datasets for the validation of segmentation methods in our experiments. </p>
-  <p>In Table 1, we report the overall details for the aforementioned datasets. </p>
-
-  <p>All ground-truth segmentations were performed or supervised by a radiologist specialist in the field.</p>
-
+<p>Therefore, we used the typical number of MRI scans and datasets for the validation of segmentation methods in our experiments. All ground-truth segmentations were performed or supervised by a radiologist specialist in the field. In Table 1, we report the overall details for the aforementioned datasets.</p>
 
  Table: Datasets scan parameters (prior to the isotropic normalization).
   Dataset                                | Number of exams | Average Age | Number of Males | Number of Females | Number of Volumetric ROIs | Range | MRI Sequences      | TR/TE (ms) | Resolution (Voxel)                                   | Resolution (mm<sup>3</sup>)
