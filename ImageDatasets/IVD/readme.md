@@ -19,7 +19,7 @@ The Ethics Research Committee of the [Ribeirão Preto Medical School - FMRP/USP]
 
 # Volume info
 
-name  |   L5S1 (cm<sup>3<\sup>)  |   L4L5 (cm<sup>3<\sup>)  |   L3L4 (cm<sup>3<\sup>)  |   L2L3 (cm<sup>3<\sup>)  |   L1L2 (cm<sup>3<\sup>)
+name  |   L5S1 (cm<sup>3</sup>)  |   L4L5 (cm<sup>3</sup>)  |   L3L4 (cm<sup>3</sup>)  |   L2L3 (cm<sup>3</sup>)  |   L1L2 (cm<sup>3</sup>)
 :--: | :--: | :--: | :--: | :--: | :--: 
 1  |  4.551753592  |  6.907649615  |  7.256972129  |  6.35360786  |  4.864519098
 2  |  5.399063816  |  7.278094001  |  6.647688716  |  5.995349227  |  4.853145838
