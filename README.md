@@ -3,7 +3,10 @@ FastCleverSegMethod
 
 ## DataSets
 
-<p>We have used five MRI datasets, with respective manual segmentation (gold standard), and divided them into three categories. First, we consider a public dataset of paravertebral muscles \cite{Burian2019}. </p>Then, we present an intervertebral disc dataset \cite{Rafael2016}, which will be publicly available. Finally, we assembled three datasets of vertebral bodies, which are publicly available \cite{SpineWeb11,Burian2019,Chengwen2015,ChengwenChuEtAl2015Dataset}. Therefore, we used the typical number of MRI scans and datasets for the validation of segmentation methods in our experiments. Table \ref{tab:scanParameters} reports the overall details for the aforementioned datasets.  The ground-truth segmentations were performed or supervised by a radiologist specialist in the field.
+<p>We have used five MRI datasets, with respective manual segmentation (gold standard), and divided them into three categories. First, we consider a public dataset of paravertebral muscles \cite{Burian2019}. </p>
+<p>Then, we present an intervertebral disc dataset \cite{Rafael2016}, available at. </p>
+  <p>Finally, we assembled three datasets of vertebral bodies, which are publicly available \cite{SpineWeb11,Burian2019,Chengwen2015,ChengwenChuEtAl2015Dataset}.</p> <p>Therefore, we used the typical number of MRI scans and datasets for the validation of segmentation methods in our experiments. </p>
+  <p>Table \ref{tab:scanParameters} reports the overall details for the aforementioned datasets.  The ground-truth segmentations were performed or supervised by a radiologist specialist in the field.</p>
 
 
 To assure the best conditions to all segmentation algorithms, since the majority of the original exams have 65,536 gray levels (16 bits/pixel), we normalized the gray-scale of the exams into 256 intensities (v<sub>i</sub> $\in$ $[1, 256]$, 8 bits/pixel):
