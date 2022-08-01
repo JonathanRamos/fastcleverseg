@@ -1,10 +1,5 @@
 # Image Datasets
 
-# fastcleverseg
-FastCleverSegMethod
-
-## DataSets
-
 <p>We have used five MRI datasets, with respective manual segmentation (gold standard), and divided them into three categories. First, we consider a public dataset of paravertebral muscles \cite{Burian2019}. </p>
 <p>Then, we present an intervertebral disc dataset \cite{Rafael2016}, available at [a relative link](other_file.md). </p>
   <p>Finally, we assembled three datasets of vertebral bodies, which are publicly available \cite{SpineWeb11,Burian2019,Chengwen2015,ChengwenChuEtAl2015Dataset}.</p> <p>Therefore, we used the typical number of MRI scans and datasets for the validation of segmentation methods in our experiments. </p>
@@ -21,7 +16,7 @@ In general, semi-automatic segmentation techniques present better results with 8
 Besides, using 16 bits/pixel may add unnecessary processing time.
 
 
-### Paravertebral muscles
+## Paravertebral muscles
 \label{subsec:muscles}
 
 The reference database MyoSegmentTUM\cite{Burian2019} comprises lumbar muscles and vertebral bodies in chemical shift encoding-based water-fat MRI.
