@@ -8,6 +8,25 @@
 
 <p>Therefore, we used the typical number of MRI scans and datasets for the validation of segmentation methods in our experiments. </p>
   <p>Table \ref{tab:scanParameters} reports the overall details for the aforementioned datasets.  The ground-truth segmentations were performed or supervised by a radiologist specialist in the field.</p>
+  
+  Dataset | MRI Sequences | TR/TE (ms) | Resolution (Voxel) | Resolution ($\textrm{mm}^3$)
+   :---: |  :---: |  :---: |  :---: |  :---: 
+    Paravertebral Muscles~\cite{Burian2019}  | T1 TFE & 6.4/1.1 | 334$\times$334$\times$67 $\pm$ 135$\times$135$\times$5.0 | 1.0$\times$1.0$\times$3.6   $\pm $0$\times$0$\times$5 
+<!--     % -----------------
+    Intervertebral Discs~\cite{Rafael2016}  & T2 SE & 3,900/160 & 512$\times$512$\times$16 $\pm $0$\times$0$\times$0 & 0.4$\times$0.4$\times$4.4 $\pm $0$\times$0$\times$0 \\  \hline
+    % -----------------
+  Vertebra Bodies~\cite{SpineWeb11}&  T1 F/TSE, T2 T/SE &  --/-- & 542$\times$542$\times$18$\pm $106$\times$106$\times$5 & 0.7$\times$0.7$\times$3.8 $\pm$0.2$\times$0.2$\times$0.3 \\  \hline
+    % -----------------
+    Vertebral Bodies~\cite{Burian2019} & T1 FFE & 11/1.4 & 222$\times$222$\times$23 $\pm $7$\times$7$\times$12 &  1.0$\times$1.0$\times$3.9 $\pm $0$\times$0 $\times$0.2 \\  \hline
+    % -----------------
+    Vertebral Bodies~\cite{Chengwen2015} & T2 TSE & --/-- & 305$\times$305$\times$39 $\pm $0$\times$0$\times$0 & 1.2$\times$1.2$\times$2.0 $\pm $0$\times$0$\times$0 \\ -->
+  
+<!--   \begin{table}[!t]
+\centering
+  \caption{\bf Datasets scan parameters (prior to the normalization).}
+    \end{tabular}
+    \begin{flushleft} TE: Echo Time, TR: Repetition Time, SE: Spin-echo, TSE: Turbo Spin-echo, $\pm$: Standard Deviation. --: Information not reported in the paper neither present on the files\textquotesingle s metadata.
+\end{table} -->
 
 
 To assure the best conditions to all segmentation algorithms, since the majority of the original exams have 65,536 gray levels (16 bits/pixel), we normalized the gray-scale of the exams into 256 intensities (v<sub>i</sub> $\in$ $[1, 256]$, 8 bits/pixel):
@@ -68,34 +87,7 @@ The Ethics Research Committee of the Ribeir\~ao Preto Medical School - USP, wher
 This dataset is anonymized and available at \url{https://github.com/JonathanRamos/fastcleverseg}.
 %
 
-\begin{table}[!t]
-% [!htb]
-\begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
-\centering
-  \caption{\bf Datasets scan parameters (prior to the normalization).}
-    \label{tab:scanParameters}
-    \setlength{\tabcolsep}{2.5pt}
-    \centering
-    \begin{tabular}{c cccc}
-    Dataset & MRI Sequences & TR/TE (ms) & Resolution (Voxel) & Resolution ($\textrm{mm}^3$) \\  \thickhline
-    Paravertebral Muscles~\cite{Burian2019}  & T1 TFE & 6.4/1.1 & 334$\times$334$\times$67 $\pm$ 135$\times$135$\times$5.0 & 1.0$\times$1.0$\times$3.6   $\pm $0$\times$0$\times$5 \\  \hline
-    % -----------------
-    Intervertebral Discs~\cite{Rafael2016}  & T2 SE & 3,900/160 & 512$\times$512$\times$16 $\pm $0$\times$0$\times$0 & 0.4$\times$0.4$\times$4.4 $\pm $0$\times$0$\times$0 \\  \hline
-    % -----------------
-  Vertebra Bodies~\cite{SpineWeb11}&  T1 F/TSE, T2 T/SE &  --/-- & 542$\times$542$\times$18$\pm $106$\times$106$\times$5 & 0.7$\times$0.7$\times$3.8 $\pm$0.2$\times$0.2$\times$0.3 \\  \hline
-    % -----------------
-    Vertebral Bodies~\cite{Burian2019} & T1 FFE & 11/1.4 & 222$\times$222$\times$23 $\pm $7$\times$7$\times$12 &  1.0$\times$1.0$\times$3.9 $\pm $0$\times$0 $\times$0.2 \\  \hline
-    % -----------------
-    Vertebral Bodies~\cite{Chengwen2015} & T2 TSE & --/-- & 305$\times$305$\times$39 $\pm $0$\times$0$\times$0 & 1.2$\times$1.2$\times$2.0 $\pm $0$\times$0$\times$0 \\  
-    \thickhline
-    \end{tabular}
-    \begin{flushleft} TE: Echo Time, TR: Repetition Time, SE: Spin-echo, TSE: Turbo Spin-echo, $\pm$: Standard Deviation. --: Information not reported in the paper neither present on the files\textquotesingle s metadata.
-\end{flushleft}
 
-    
-    \end{adjustwidth}
-
-\end{table}
 
 ## Vertebral Bodies
 
