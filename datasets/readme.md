@@ -22,7 +22,7 @@ In general, semi-automatic segmentation techniques present better results with 8
 Besides, using 16 bits/pixel may add unnecessary processing time.
 
 
- Table: Datasets scan parameters (prior to the normalization).
+ Table: Datasets scan parameters (prior to the isotropic normalization).
   Dataset                                | Number of exams | Average Age | Number of Males | Number of Females | Number of Volumetric ROIs | Range | MRI Sequences      | TR/TE (ms) | Resolution (Voxel)                                   | Resolution (mm<sup>3</sup>)
    :---: | :---: | :---: | :---: | :---: | :---: |  :---: | :---: | :---: | :---: | :---:
  [Paravertebral Muscles](https://doi.org/10.1186/s12891-019-2528-x) | 54 | 51.6 $\pm$ 16.7 |  15 | 39 | 216 | | T1 TFE             | 6.4/1.1    | 334&times;334&times;67 <br />$\pm$ 135&times;135&times;5.0 | 1.0&times;1.0&times;3.6 <br />$\pm$ 0&times;0&times;5 
