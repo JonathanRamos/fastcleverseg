@@ -7,7 +7,8 @@
 - Finally, we assembled three datasets of vertebral bodies, available at [VBs](VBs/readme.md).
 
 <p>Therefore, we used the typical number of MRI scans and datasets for the validation of segmentation methods in our experiments. </p>
-  <p>Table \ref{tab:scanParameters} reports the overall details for the aforementioned datasets.  The ground-truth segmentations were performed or supervised by a radiologist specialist in the field.</p>
+  <p>In the following Table we report the overall details for the aforementioned datasets. </p>
+
   
  
   Dataset                                | Number of exams | Average Age | Number of Males | Number of Females | Number of Volumetric ROIs | Range | MRI Sequences      | TR/TE (ms) | Resolution (Voxel)                                   | Resolution (mm<sup>3</sup>)
@@ -24,6 +25,8 @@
     \end{tabular}
     \begin{flushleft} TE: Echo Time, TR: Repetition Time, SE: Spin-echo, TSE: Turbo Spin-echo, $\pm$: Standard Deviation. --: Information not reported in the paper neither present on the files\textquotesingle s metadata.
 \end{table} -->
+
+  <p>All ground-truth segmentations were performed or supervised by a radiologist specialist in the field.</p>
 
 
 To assure the best conditions to all segmentation algorithms, since the majority of the original exams have 65,536 gray levels (16 bits/pixel), we normalized the gray-scale of the exams into 256 intensities (v<sub>i</sub> $\in$ $[1, 256]$, 8 bits/pixel):
