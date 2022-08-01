@@ -11,7 +11,7 @@ To assure the best conditions to all segmentation algorithms, since the majority
 ![image](https://user-images.githubusercontent.com/3834596/182188895-8d5576dc-563b-4cb0-889e-ad8a0fedeb72.png)
 
 in which $V$ represents the data volume of the exam.
-All MRIs were normalized to the isotropic spatial resolution (1 $\times$ 1 $\times$ 1  mm<sup>3<sup>), employing a trilinear interpolation.
+All MRIs were normalized to the isotropic spatial resolution (1 $\times$ 1 $\times$ 1  mm<sup>3<\sup>), employing a trilinear interpolation.
 In general, semi-automatic segmentation techniques present better results with 8 bits/pixel.
 Besides, using 16 bits/pixel may add unnecessary processing time.
 
