@@ -3,9 +3,9 @@
 <p>We have used five MRI datasets, with respective manual segmentation (gold standard), and divided them into three categories. </p>
   
   
-   Markup : 1. First, we consider a public dataset of paravertebral muscles \cite{Burian2019}. 
-              1. Then, we present an intervertebral disc dataset \cite{Rafael2016}, available at [a relative link](other_file.md).
-              3. Finally, we assembled three datasets of vertebral bodies, which are publicly available \cite{SpineWeb11,Burian2019,Chengwen2015,ChengwenChuEtAl2015Dataset}.
+   Markup : - First, we consider a public dataset of paravertebral muscles \cite{Burian2019}. 
+            - Then, we present an intervertebral disc dataset \cite{Rafael2016}, available at [a relative link](other_file.md).
+            - Finally, we assembled three datasets of vertebral bodies, which are publicly available \cite{SpineWeb11,Burian2019,Chengwen2015,ChengwenChuEtAl2015Dataset}.
 
 <p>Therefore, we used the typical number of MRI scans and datasets for the validation of segmentation methods in our experiments. </p>
   <p>Table \ref{tab:scanParameters} reports the overall details for the aforementioned datasets.  The ground-truth segmentations were performed or supervised by a radiologist specialist in the field.</p>
