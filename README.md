@@ -31,7 +31,7 @@ The volunteers underwent MRI on a 3T system (Ingenia, Philips Healthcare, Best, 
 Subjects were positioned head-first in a supine position.
 %
 The segmentations were performed by a board-certified radiologist using the image viewer software MITK (Medical Imaging Interaction Toolkit, Heidelberg, Germany).
-
+s
 
 The manual segmentation took 50 min for each paravertebral muscle.
 %
