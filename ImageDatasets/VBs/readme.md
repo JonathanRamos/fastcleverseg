@@ -37,7 +37,7 @@ C002*   | T2 TSE   | 448&times;448&times;31  | 1.12&times;1.12&times;3.3    | Sc
 
 ## VB2 
 
-<p>In the [second dataset](), the authors provided 23 annotated T2-weighted turbo spin echo MR of the lower spine. The images are from anonymous healthy patients, each with at least seven vertebral bodies of the lower spine (T11-L5).</p>  
+<p>In the [second dataset](https://doi.org/10.1111/cgf.12343), the authors provided 23 annotated T2-weighted turbo spin echo MR of the lower spine. The images are from anonymous healthy patients, each with at least seven vertebral bodies of the lower spine (T11-L5).</p>  
 
 <p>Each exam presents reference manual segmentation for each vertebral body as binary masks, resulting in 161 labeled vertebral bodies. They did not report any information regarding the total time spent on the manual segmentation.</p>
 <!-- % https://zenodo.org/record/22304#.XUmCeHVKhv9 -->
