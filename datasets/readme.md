@@ -13,10 +13,10 @@
   Dataset                                | Number of exams | Average Age | Number of Males | Number of Females | Number of Volumetric ROIs | MRI Sequences      | TR/TE (ms) | Resolution (Voxel)                                   | Resolution (mm<sup>3</sup>)
    :---: | :---: | :---: | :---: | :---: |  :---: | :---: | :---: | :---: | :---:
  [Paravertebral Muscles](https://doi.org/10.1186/s12891-019-2528-x) | 54 | 51.6 $\pm$ 16.7 |  15 | 39 | |T1 TFE             | 6.4/1.1    | 334&times;334&times;67 <br />$\pm$ 135&times;135&times;5.0 | 1.0&times;1.0&times;3.6 <br />$\pm$ 0&times;0&times;5 
- [Intervertebral Discs](https://doi.org/10.21037/qims.2016.08.01)  | | | | | T2 SE              | 3,900/160  | 512&times;512&times;16 <br />$\pm$ 0&times;0&times;0       | 0.4&times;0.4&times;4.4 <br />$\pm$ 0&times;0&times;0 
- [Vertebra Bodies](https://doi.org/10.1111/cgf.12343)       |  | | | | T1 F/TSE, T2 T/SE |  --/--     | 542&times;542&times;18 <br />$\pm$ 106&times;106&times;5   | 0.7&times;0.7&times;3.8 <br />$\pm$ 0.2&times;0.2&times;0.3 
+ [Intervertebral Discs](https://doi.org/10.21037/qims.2016.08.01)  | | | | | | T2 SE              | 3,900/160  | 512&times;512&times;16 <br />$\pm$ 0&times;0&times;0       | 0.4&times;0.4&times;4.4 <br />$\pm$ 0&times;0&times;0 
+ [Vertebra Bodies](https://doi.org/10.1111/cgf.12343)       |  |  | | | | T1 F/TSE, T2 T/SE |  --/--     | 542&times;542&times;18 <br />$\pm$ 106&times;106&times;5   | 0.7&times;0.7&times;3.8 <br />$\pm$ 0.2&times;0.2&times;0.3 
 [Vertebral Bodies](https://doi.org/10.1186/s12891-019-2528-x)       | 54 | 51.6 $\pm$ 16.7 | 15 | 39| |T1 FFE             | 11/1.4     | 222&times;222&times;23 <br />$\pm$ 7&times;7&times;12    | 1.0&times;1.0&times;3.9 <br />$\pm$ 0&times;0&times;0.2
-[Vertebral Bodies](https://doi.org/10.1371/journal.pone.0143327)     | | | | |T2 TSE             | --/--      | 305&times;305&times;39 <br />$\pm$ 0&times;0&times;0     | 1.2&times;1.2&times;2.0 <br />$\pm$ 0&times;0&times;0 
+[Vertebral Bodies](https://doi.org/10.1371/journal.pone.0143327)     | |  |  | | |T2 TSE             | --/--      | 305&times;305&times;39 <br />$\pm$ 0&times;0&times;0     | 1.2&times;1.2&times;2.0 <br />$\pm$ 0&times;0&times;0 
   
 <!--   \begin{table}[!t]
 \centering
