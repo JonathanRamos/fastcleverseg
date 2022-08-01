@@ -8,7 +8,7 @@
 
 <p>Therefore, we used the typical number of MRI scans and datasets for the validation of segmentation methods in our experiments. All ground-truth segmentations were performed or supervised by a radiologist specialist in the field. In Table 1, we report the overall details for the aforementioned datasets.</p>
 
-<p style='color:red'>**If you use any of these default dataset please cite its respective authors!**</p>
+**<p style='color:red'>If you use any of these default dataset please cite its respective authors!</p>**
 
  Table: Datasets scan parameters (prior to the isotropic normalization).
   Dataset                                | Number of exams | Average Age | Number of Males | Number of Females | Number of Volumetric ROIs | Range | MRI Sequences      | TR/TE (ms) | Resolution (Voxel)                                   | Resolution (mm<sup>3</sup>)
