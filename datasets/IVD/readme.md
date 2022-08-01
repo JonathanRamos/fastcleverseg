@@ -12,5 +12,5 @@
 <p>To manually segment the intervertebral discs from the exams, they used the MINC tools and Display software (McConnell Brain Imaging Center, Montreal, Quebec, Canada).</p>
 <p>[The authors](https://doi.org/10.21037/qims.2016.08.01) considered five lumbar IVDs for manually segmenting and considered full extent, i.e., encompassing the complete nucleus pulposus and annulus fibrosus, taking into account all sagittal slices and avoiding segmenting the subchondral bone and vertebral endplate.</p>
 <p>The authors did not report how long it took to segment the intervertebral discs manually.</p>
-<p>The Ethics Research Committee of the Ribeir\~ao Preto Medical School - USP, where the dataset was acquired, approved the study. </p>
+<p>The Ethics Research Committee of the Ribeirão Preto Medical School - USP, where the dataset was acquired, approved the study. </p>
 
