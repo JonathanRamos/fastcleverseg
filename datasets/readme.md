@@ -12,16 +12,6 @@
   <p>All ground-truth segmentations were performed or supervised by a radiologist specialist in the field.</p>
 
 
-To assure the best conditions to all segmentation algorithms, since the majority of the original exams have 65,536 gray levels (16 bits/pixel), we normalized the gray-scale of the exams into 256 intensities (v<sub>i</sub> $\in$ $[1, 256]$, 8 bits/pixel):
-
-![image](https://user-images.githubusercontent.com/3834596/182188895-8d5576dc-563b-4cb0-889e-ad8a0fedeb72.png)
-
-in which $V$ represents the data volume of the exam.
-All MRIs were normalized to the isotropic spatial resolution (1&times;1&times;1mm<sup>3</sup>), employing a trilinear interpolation.
-In general, semi-automatic segmentation techniques present better results with 8 bits/pixel.
-Besides, using 16 bits/pixel may add unnecessary processing time.
-
-
  Table: Datasets scan parameters (prior to the isotropic normalization).
   Dataset                                | Number of exams | Average Age | Number of Males | Number of Females | Number of Volumetric ROIs | Range | MRI Sequences      | TR/TE (ms) | Resolution (Voxel)                                   | Resolution (mm<sup>3</sup>)
    :---: | :---: | :---: | :---: | :---: | :---: |  :---: | :---: | :---: | :---: | :---:
@@ -32,4 +22,15 @@ Besides, using 16 bits/pixel may add unnecessary processing time.
 [Vertebral Bodies 3](https://doi.org/10.1371/journal.pone.0143327)     | 17 |  |  | | 160 | T11-L5 | T2 TSE             | --/--      | 305&times;305&times;39 <br />$\pm$ 0&times;0&times;0     | 1.2&times;1.2&times;2.0 <br />$\pm$ 0&times;0&times;0 
   
 TE: Echo Time, TR: Repetition Time, SE: Spin-echo, TSE: Turbo Spin-echo, $\pm$: Standard Deviation. --: Information not reported in the paper neither present on the files's metadata.
+
+## Isotropic Normalization
+
+To assure the best conditions to all segmentation algorithms, since the majority of the original exams have 65,536 gray levels (16 bits/pixel), we normalized the gray-scale of the exams into 256 intensities (v<sub>i</sub> $\in$ $[1, 256]$, 8 bits/pixel):
+
+![image](https://user-images.githubusercontent.com/3834596/182188895-8d5576dc-563b-4cb0-889e-ad8a0fedeb72.png)
+
+in which $V$ represents the data volume of the exam.
+All MRIs were normalized to the isotropic spatial resolution (1&times;1&times;1mm<sup>3</sup>), employing a trilinear interpolation.
+In general, semi-automatic segmentation techniques present better results with 8 bits/pixel.
+Besides, using 16 bits/pixel may add unnecessary processing time.
 
