@@ -42,7 +42,9 @@ In the [second dataset](https://doi.org/10.1111/cgf.12343), the authors provided
 <!-- % https://zenodo.org/record/22304#.XUmCeHVKhv9 -->
 
 ## VB3
-In the [third dataset](https://doi.org/10.1186/s12891-019-2528-x) (from the same dataset of paravertebral muscles \cite{Burian2019}), the authors also made available the lumbar vertebral bodies (L1 to L5) of the 54 healthy volunteers.  The acquisition and segmentation of the vertebral bodies are the same as presented in the paravertebral muscle dataset. Note that, the 54 subjects analyzed in this dataset are the same as in the paravertebral muscle dataset. Lumbar muscle groups and lumbar vertebral bodies (L1 to L5) of 54 healthy volunteers were manually segmented in the images. The manual segmentation took 1:40h for vertebral bodies on each subject.
+In the [third VB dataset](https://doi.org/10.1186/s12891-019-2528-x) (from the same dataset of paravertebral muscles), the authors also made available the lumbar vertebral bodies (L1 to L5) of the 54 healthy volunteers.  The acquisition and segmentation of the vertebral bodies are the same as presented in the paravertebral muscle dataset. 
+
+Note that, the 54 subjects analyzed in this dataset are the same as in the paravertebral muscle dataset. Lumbar muscle groups and lumbar vertebral bodies (L1 to L5) of 54 healthy volunteers were manually segmented in the images. The manual segmentation took 1:40h for vertebral bodies on each subject.
 
 
 
