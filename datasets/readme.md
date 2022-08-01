@@ -9,8 +9,7 @@
 <p>Therefore, we used the typical number of MRI scans and datasets for the validation of segmentation methods in our experiments. </p>
   <p>Table \ref{tab:scanParameters} reports the overall details for the aforementioned datasets.  The ground-truth segmentations were performed or supervised by a radiologist specialist in the field.</p>
   
-  Dataset | MRI Sequences | TR/TE (ms) | Resolution (Voxel) | Resolution ($\textrm{mm}^3$)
-   :---: |  :---: |  :---: |  :---: |  :---: 
+  Dataset | MRI Sequences | TR/TE (ms) | Resolution (Voxel) | Resolution (mm<sup>3</sup>)
     Paravertebral Muscles~\cite{Burian2019}  | T1 TFE & 6.4/1.1 | 334$\times$334$\times$67 $\pm$ 135$\times$135$\times$5.0 | 1.0$\times$1.0$\times$3.6   $\pm $0$\times$0$\times$5 
 <!--     % -----------------
     Intervertebral Discs~\cite{Rafael2016}  & T2 SE & 3,900/160 & 512$\times$512$\times$16 $\pm $0$\times$0$\times$0 & 0.4$\times$0.4$\times$4.4 $\pm $0$\times$0$\times$0 \\  \hline
