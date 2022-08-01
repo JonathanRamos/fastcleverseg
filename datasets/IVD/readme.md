@@ -1,6 +1,6 @@
 # Intervertebral discs
 
-<p>The [dataset]: https://doi.org/10.21037/qims.2016.08.01 consists of 54 MRI exams of adult volunteers with an average age of 27.1 $\pm$ 4.8 years old.</p>
+<p>The [dataset](https://doi.org/10.21037/qims.2016.08.01) consists of 54 MRI exams of adult volunteers with an average age of 27.1 $\pm$ 4.8 years old.</p>
 
 <p>Lumbar spine MRI was performed using a 1.5T scanner (Achieva; Philips Healthcare, Best, Netherlands) with a 16-channel spinal coil (SENSE-SPINE; Philips).</p> 
 <p>The volunteers were positioned in a supine position with the lower limbs extended and relaxed.</p>
