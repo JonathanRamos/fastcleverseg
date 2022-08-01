@@ -2,7 +2,7 @@
 
 <p>We have used five MRI datasets, with respective manual segmentation (gold standard), and divided them into three categories. </p>
   
-- First, we consider a public dataset of paravertebral muscles \cite{Burian2019}. 
+- First, we consider a public dataset of [Paravertebral Muscles](https://doi.org/10.1186/s12891-019-2528-x) at [muscles](datasets/paravertebralMuscles.md). 
 - Then, we present an intervertebral disc dataset \cite{Rafael2016}, available at [a relative link](other_file.md).
 - Finally, we assembled three datasets of vertebral bodies, which are publicly available \cite{SpineWeb11,Burian2019,Chengwen2015,ChengwenChuEtAl2015Dataset}.
 
