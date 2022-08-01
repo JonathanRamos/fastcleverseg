@@ -12,11 +12,11 @@
  
   Dataset                                | MRI Sequences      | TR/TE (ms) | Resolution (Voxel)                                   | Resolution (mm<sup>3</sup>)
    :---: | :---: | :---: | :---: | :---:
- Paravertebral Muscles~\cite{Burian2019} | T1 TFE             | 6.4/1.1    | 334&times;334&times;67 $\pm$ 135&times;135&times;5.0 | 1.0&times;1.0&times;3.6 $\pm$ 0&times;0&times;5 
- Intervertebral Discs~\cite{Rafael2016}  | T2 SE              | 3,900/160  | 512&times;512&times;16 $\pm$ 0&times;0&times;0       | 0.4&times;0.4&times;4.4 $\pm$ 0&times;0&times;0 
- Vertebra Bodies~\cite{SpineWeb11}       |  T1 F/TSE, T2 T/SE |  --/--     | 542&times;542&times;18 $\pm$ 106&times;106&times;5   | 0.7&times;0.7&times;3.8 $\pm$ 0.2&times;0.2&times;0.3 
-Vertebral Bodies~\cite{Burian2019}       | T1 FFE             | 11/1.4     | 222&times;222&times;23 $\pm$ 7&times;7&times;12    | 1.0&times;1.0&times;3.9 $\pm$ 0&times;0&times;0.2
-Vertebral Bodies~\cite{Chengwen2015}     | T2 TSE             | --/--      | 305&times;305&times;39 $\pm$ 0&times;0&times;0     | 1.2&times;1.2&times;2.0 $\pm$ 0&times;0&times;0 
+ Paravertebral Muscles~\cite{Burian2019} | T1 TFE             | 6.4/1.1    | 334&times;334&times;67 <br />$\pm$ 135&times;135&times;5.0 | 1.0&times;1.0&times;3.6 <br />$\pm$ 0&times;0&times;5 
+ Intervertebral Discs~\cite{Rafael2016}  | T2 SE              | 3,900/160  | 512&times;512&times;16 <br />$\pm$ 0&times;0&times;0       | 0.4&times;0.4&times;4.4 <br />$\pm$ 0&times;0&times;0 
+ Vertebra Bodies~\cite{SpineWeb11}       |  T1 F/TSE, T2 T/SE |  --/--     | 542&times;542&times;18 <br />$\pm$ 106&times;106&times;5   | 0.7&times;0.7&times;3.8 <br />$\pm$ 0.2&times;0.2&times;0.3 
+Vertebral Bodies~\cite{Burian2019}       | T1 FFE             | 11/1.4     | 222&times;222&times;23 <br />$\pm$ 7&times;7&times;12    | 1.0&times;1.0&times;3.9 <br />$\pm$ 0&times;0&times;0.2
+Vertebral Bodies~\cite{Chengwen2015}     | T2 TSE             | --/--      | 305&times;305&times;39 <br />$\pm$ 0&times;0&times;0     | 1.2&times;1.2&times;2.0 <br />$\pm$ 0&times;0&times;0 
   
 <!--   \begin{table}[!t]
 \centering
