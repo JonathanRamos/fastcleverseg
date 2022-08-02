@@ -15,7 +15,7 @@
    :---: | :---: | :---: | :---: | :---: | :---: |  :---: | :---: | :---: | :---: | :---:
  [Paravertebral Muscles](https://doi.org/10.1186/s12891-019-2528-x) | 54 | 51.6 $\pm$ 16.7 |  15 | 39 | 216 | right/left erector spinae and psoas  | T1 TFE             | 6.4/1.1    | 334&times;334&times;67 <br />$\pm$ 135&times;135&times;5.0 | 1.0&times;1.0&times;3.6 <br />$\pm$ 0&times;0&times;5 
  [Intervertebral Discs](https://doi.org/10.21037/qims.2016.08.01)  | 54 | 27.1 $\pm$ 4.8 | 24 | 31 | 270 | L5S1 - L1L2  | T2 SE              | 3,900/160  | 512&times;512&times;16 <br />$\pm$ 0&times;0&times;0       | 0.4&times;0.4&times;4.4 <br />$\pm$ 0&times;0&times;0 
-[Vertebral Bodies 1](https://doi.org/10.1371/journal.pone.0143327)     | 17 |  |  | | 160 | T11-L5 | T2 TSE             | --/--      | 305&times;305&times;39 <br />$\pm$ 0&times;0&times;0     | 1.2&times;1.2&times;2.0 <br />$\pm$ 0&times;0&times;0 
+[Vertebral Bodies 1](https://doi.org/10.1371/journal.pone.0143327)     | 17 | 6 | 11 | | 160 | T11-L5 | T2 TSE             | --/--      | 305&times;305&times;39 <br />$\pm$ 0&times;0&times;0     | 1.2&times;1.2&times;2.0 <br />$\pm$ 0&times;0&times;0 
 [Vertebral Bodies 2](https://doi.org/10.1111/cgf.12343)       | 23 |  | | | 234 | T6-T12 | T1 F/TSE, T2 T/SE |  --/--     | 542&times;542&times;18 <br />$\pm$ 106&times;106&times;5   | 0.7&times;0.7&times;3.8 <br />$\pm$ 0.2&times;0.2&times;0.3 
 [Vertebral Bodies 3](https://doi.org/10.1186/s12891-019-2528-x)       | 54 | 51.6 $\pm$ 16.7 | 15 | 39| | L1-L5 | T1 FFE             | 11/1.4     | 222&times;222&times;23 <br />$\pm$ 7&times;7&times;12    | 1.0&times;1.0&times;3.9 <br />$\pm$ 0&times;0&times;0.2
 
