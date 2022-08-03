@@ -14,4 +14,20 @@ Ramos, et al. Fast and accurate spine MRI segmentation using FastCleverSeg. Jour
 # All Results
 
 
+## Overall
+
+
+## Paravertebral Muscles
+
+## Intervertebral Discs
+
+## Vertebral Bodies 1
+
+## Vertebral Bodies 2
+
+## Vertebral Bodies 3
+
+## Vertebral Bodies 1-3
+
+
 
