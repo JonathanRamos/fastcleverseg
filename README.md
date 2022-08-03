@@ -1,4 +1,5 @@
-# Overview
+# FastCleverSeg
+## Overview
 **If you use any part of this repository, please cite:**
 
 ```
@@ -11,23 +12,23 @@ Ramos, et al. Fast and accurate spine MRI segmentation using FastCleverSeg. Jour
 - [Results](Results)
 
 
-# Results
+## Results
 
 
-## Overall
+### Overall
 
 
-## Paravertebral Muscles
+### Paravertebral Muscles
 
-## Intervertebral Discs
+### Intervertebral Discs
 
-## Vertebral Bodies 1
+### Vertebral Bodies 1
 
-## Vertebral Bodies 2
+### Vertebral Bodies 2
 
-## Vertebral Bodies 3
+### Vertebral Bodies 3
 
-## Vertebral Bodies 1-3
+### Vertebral Bodies 1-3
 
 
 
