@@ -16,3 +16,5 @@ The manual segmentation took 50 min for each paravertebral muscle.
 The axial proton density fat fraction (PDFF) maps were used to separately segment the erector spine and the psoas muscle on both sides from the cranial part of L2 to the caudal part of L5.
 
 **If you use this dataset, please cite:**
+
+Burian, E., Rohrmeier, A., Schlaeger, S. et al. Lumbar muscle and vertebral bodies segmentation of chemical shift encoding-based water-fat MRI: the reference database MyoSegmenTUM spine. BMC Musculoskelet Disord 20, 152 (2019). https://doi.org/10.1186/s12891-019-2528-x
