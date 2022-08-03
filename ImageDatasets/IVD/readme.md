@@ -17,10 +17,10 @@ The Ethics Research Committee of the [Ribeirão Preto Medical School - FMRP/USP]
 
 **If you use this dataset please cite our paper and***
 ```
-R. Menezes-Reis, C. E. Salmon, G. P. Bonugli, D. Mazoroski, M. H. Tamashiro, L. G. Savarese, M. H. Nogueira-Barbosa, Lumbar interverte-
-bral discs T2 relaxometry and T1ρ relaxometry correlation with age in asymptomatic young adults, Quant Imaging Med Surg 6 (4) (2016) 402–412. 
-https://doi.org/10.21037/qims.2016.08.01
-´´´
+R. Menezes-Reis, C. E. Salmon, G. P. Bonugli, D. Mazoroski, M. H. Tamashiro, L. G. Savarese, M. H. Nogueira-Barbosa, 
+Lumbar intervertebral discs T2 relaxometry and T1ρ relaxometry correlation with age in asymptomatic young adults, 
+Quant Imaging Med Surg 6 (4) (2016) 402–412. https://doi.org/10.21037/qims.2016.08.01
+```
 
 
 
