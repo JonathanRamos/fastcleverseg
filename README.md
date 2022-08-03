@@ -4,5 +4,8 @@
 Ramos, et al. Fast and accurate spine MRI segmentation using FastCleverSeg. Journal here, 2022.
 ```
 
-# fastcleverseg
-FastCleverSegMethod
+[FastCleverSeg Method, algorithms and codes]()
+[Image Datasets]()
+
+
+
