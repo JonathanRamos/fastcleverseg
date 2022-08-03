@@ -18,5 +18,7 @@ The axial proton density fat fraction (PDFF) maps were used to separately segmen
 **If you use this dataset, please cite:**
 
 ```
-Burian, E., Rohrmeier, A., Schlaeger, S. et al. Lumbar muscle and vertebral bodies segmentation of chemical shift encoding-based water-fat MRI: the reference database MyoSegmenTUM spine. BMC Musculoskelet Disord 20, 152 (2019). https://doi.org/10.1186/s12891-019-2528-x
+Burian, E., Rohrmeier, A., Schlaeger, S. et al. Lumbar muscle and vertebral bodies segmentation of chemical shift encoding-based 
+water-fat MRI: the reference database MyoSegmenTUM spine. BMC Musculoskelet Disord 20, 152 (2019). 
+https://doi.org/10.1186/s12891-019-2528-x
 ```
