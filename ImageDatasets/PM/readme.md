@@ -1,6 +1,6 @@
 # Paravertebral muscles
 
-The reference database [MyoSegmentTUM]([https://doi.org/10.21037/qims.2016.08.01](https://doi.org/10.1186/s12891-019-2528-x)) comprises lumbar muscles and vertebral bodies in chemical shift encoding-based water-fat MRI.
+The reference database [MyoSegmentTUM]([https://doi.org/10.1186/s12891-019-2528-x)](https://doi.org/10.21037/qims.2016.08.01)) comprises lumbar muscles and vertebral bodies in chemical shift encoding-based water-fat MRI.
 
 In total, there are 54 MRI exams (15 males and 39 females) of healthy, caucasian volunteers, with average age of 51.6 $\pm$ 16.7 years old.
 
@@ -14,3 +14,5 @@ The segmentations were performed by a board-certified radiologist using the imag
 
 The manual segmentation took 50 min for each paravertebral muscle.
 The axial proton density fat fraction (PDFF) maps were used to separately segment the erector spine and the psoas muscle on both sides from the cranial part of L2 to the caudal part of L5.
+
+**If you use this dataset, please cite:**
