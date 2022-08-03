@@ -8,10 +8,10 @@ Ramos, et al. Fast and accurate spine MRI segmentation using FastCleverSeg. Jour
 
 - [Algorithms and codes](Codes/OldMatlab)
 - [Image Datasets](ImageDatasets)
-- [All Results](Results)
+- [Results](Results)
 
 
-# All Results
+# Results
 
 
 ## Overall
