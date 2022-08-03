@@ -13,7 +13,9 @@ In the [first dataset](https://doi.org/10.1371/journal.pone.0143327),  there are
 - Neurosurgeons and three experienced users under expert supervision made the manual tracing in three to six min per vertebra. The reference segmentations were produced by manually tracing the vertebral body edges in the primary acquisition plane (23 sagittal, two axial, one coronal). Summing up, the authors provided 160 segmented vertebral bodies.
 
 ```
-Chu C, Belavý DL, Armbrecht G, Bansmann M, Felsenberg D, Zheng G (2015) Fully Automatic Localization and Segmentation of 3D Vertebral Bodies from CT/MR Images via a Learning-Based Method. PLoS ONE 10(11): e0143327. https://doi.org/10.1371/journal.pone.0143327
+Chu C, Belavý DL, Armbrecht G, Bansmann M, Felsenberg D, Zheng G (2015) Fully Automatic Localization and Segmentation of 
+3D Vertebral Bodies from CT/MR Images via a Learning-Based Method. PLoS ONE 10(11): e0143327. 
+https://doi.org/10.1371/journal.pone.0143327
 ```
 
 ## VB2 
@@ -27,7 +29,9 @@ In the [second dataset](https://doi.org/10.1111/cgf.12343), the authors provided
 <!-- % https://zenodo.org/record/22304#.XUmCeHVKhv9 -->
 
 ```
-Zukić, D., Vlasák, A., Egger, J., Hořínek, D., Nimsky, C. and Kolb, A. (2014), Robust Detection and Segmentation for Diagnosis of Vertebral Diseases Using Routine MR Images. Computer Graphics Forum, 33: 190-204. https://doi.org/10.1111/cgf.12343
+Zukić, D., Vlasák, A., Egger, J., Hořínek, D., Nimsky, C. and Kolb, A. (2014), Robust Detection and Segmentation for 
+Diagnosis of Vertebral Diseases Using Routine MR Images. Computer Graphics Forum, 33: 190-204. 
+https://doi.org/10.1111/cgf.12343
 ```
 
 ## VB3
@@ -39,7 +43,9 @@ In the [third VB dataset](https://doi.org/10.1186/s12891-019-2528-x) (from the s
 - The manual segmentation took 1:40h for vertebral bodies on each subject.
 
 ```
-Burian, E., Rohrmeier, A., Schlaeger, S. et al. Lumbar muscle and vertebral bodies segmentation of chemical shift encoding-based water-fat MRI: the reference database MyoSegmenTUM spine. BMC Musculoskelet Disord 20, 152 (2019). https://doi.org/10.1186/s12891-019-2528-x
+Burian, E., Rohrmeier, A., Schlaeger, S. et al. Lumbar muscle and vertebral bodies segmentation of chemical shift 
+encoding-based water-fat MRI: the reference database MyoSegmenTUM spine. BMC Musculoskelet Disord 20, 152 (2019). 
+https://doi.org/10.1186/s12891-019-2528-x
 ```
 
 
