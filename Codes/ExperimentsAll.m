@@ -9,7 +9,7 @@ ImageDatasets = {
     '..\ImageDatasets\VBs\VB2\Isotropic\Matlab\', ...
     '..\ImageDatasets\VBs\VB3\Isotropic\Matlab\'};
 
-SaveDir = '..\Results\';
+SaveDir = '..\Results\ROIbyROI\';
 
 NumberOfMeasures = 20; 
 
