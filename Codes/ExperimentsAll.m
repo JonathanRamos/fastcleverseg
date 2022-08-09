@@ -9,27 +9,18 @@ ImageDatasets = {
     '..\ImageDatasets\VBs\VB2\Isotropic\Matlab\', ...
     '..\ImageDatasets\VBs\VB3\Isotropic\Matlab\'};
 
+SaveDir = '..\Results\';
+
 NumberOfMeasures = 20; 
+
 % For each image Dataset
-for DatasetIdx=1:length(ImageDatasets)
+for DatasetIdx=5:length(ImageDatasets)
 
     % Get exams list in matlab format (.m)
     ExamsList = dir(char(strcat(ImageDatasets(DatasetIdx), '*.mat')));
     
     % Get number of exams to be analyzed
     NumberOfExams = length(ExamsList);
-    
-    clear FCS FGC CS BG GC EstimationTime AnnotationTime
-    % Create matrix to save the results measures for each method
-    FCS(NumberOfExams, NumberOfMeasures) = 0; % FastCleverSeg
-    FGC(NumberOfExams, NumberOfMeasures) = 0; % FastGrowCut
-    CS (NumberOfExams, NumberOfMeasures) = 0; % CleverSeg
-    BG (NumberOfExams, NumberOfMeasures) = 0; % BalancedGrowth
-    GC (NumberOfExams, NumberOfMeasures) = 0; % GrowCut 
-    
-    % Auxiliar matrices
-    EstimationTime(NumberOfExams, 2) = 0;
-    AnnotationTime(NumberOfExams, 1) = 0;
     
     % For each exam
     for ExamIdx=1:NumberOfExams
@@ -49,7 +40,7 @@ for DatasetIdx=1:length(ImageDatasets)
         % Check if MRI exam is in 8 bits per pixel, if not converts it
         I = squeeze(I(:,:,:,1));
         if ~isa(I, 'uint8')
-                I = uint8(256*mat2gray(I));
+            I = uint8(256*mat2gray(I));
         end
         
         % Check number of ROIS in Grount-truth
@@ -64,60 +55,60 @@ for DatasetIdx=1:length(ImageDatasets)
             AnnotationFilesList = dir(char(strcat(ExamsList(ExamIdx).folder, ...
                 '\Annotation\', num2str(ExamIdx, '%0.1d'), '-*.mat')));
             
-            for AnnotationFileIdx=1:lenght(AnnotationFilesList)
+            for AnnotationFileIdx=1:length(AnnotationFilesList)
+                % Cat file name and folder
+                AnnotationName = strcat( ...
+                    AnnotationFilesList(AnnotationFileIdx).folder, '\', ...
+                    AnnotationFilesList(AnnotationFileIdx).name);
                 
-                if ~(exist(char(AnnotationFilesList(AnnotationFileIdx)), 'file') == 2)
+                AnnotationROINumber = erase(AnnotationFilesList(AnnotationFileIdx).name,".mat");
+                AnnotationROINumber = split(AnnotationROINumber,"-", 2);
+                AnnotationROINumber = str2num(char(AnnotationROINumber(2)));
+                
+                % Check if annotation exists
+                if ~(exist(AnnotationName, 'file') == 2)
                     disp('File does no exist.')
                     continue;
                 end
                 
                 % Load Annotations
                 clear ANT times
-                load(char(AnnotationFilesList(AnnotationFileIdx)));
+                load(char(AnnotationName));
                 
+                % Convert matrix type to single (4 bytes)
                 Annotation = single(ANT);
+           
                 
                 % Crop and Get Region of Interest (ROI)
                 clear croppedImg croppedImgGT croppedImgAN 
-                [ROII, ROIGT, ROIANT] = GetROI(I, GT, Annotation, AnnotationFileIdx);
-                
-                
-                % Estimate Inside Annotation
-                tic
-                ROIANT = EstimateInteriorAnnotation(ROIANT, ROII);
-                InteriorANTTime = toc;
-                It = single(mat2gray(I));
-                pos = find(squeeze(sum(sum(ANT==1))) > 0);
-                
-                normalAN = croppedImgAN;
-        
-                if pathCount < 6
-                    [croppedImgAN, fillInRT] = FillNonAnnotatedSlices(croppedImg, croppedImgAN);
-                else
-                    fillInRT = 0;
-                end
-
-                cont2 = 1;
-                theta = 0.01;
+                [ROII, ROIGT, ROIANT, IANTime] = GetROI(I, GT, Annotation);
+                nROIAN = ROIANT;
+   
+                % Estimate annotation on intermediary slices
+                [ROIANT, fillInRT] = FillNonAnnotatedSlices(ROII, ROIANT);
+          
+                % Segmentation without annotation on intermediary slices
                 clear ss segmentacoes rtAll segmentacoes2 rtAll2 measures1 measures2
-                ss = size(croppedImgGT);
-                [segmentacoes2 rtAll2, measures2] = SegmentationAllMethods(croppedImg, ...
-                croppedImgGT, normalAN(1:ss(1), 1:ss(2), 1:ss(3)), normalAN, fillInRT, single(theta));
+                ss = size(ROII);
+                [Segmentations1, RunTimes1, Measures1] = ...
+                SegmentationAllMethods(ROII, ROIGT, nROIAN, fillInRT);
             
-                [segmentacoes rtAll, measures1] = SegmentationAllMethods(croppedImg, ...
-                croppedImgGT, croppedImgAN(1:ss(1), 1:ss(2), 1:ss(3)), normalAN, fillInRT, single(theta));
+            
+                % Segmentations with annotation on intermediary slices 
+                [Segmentations2, RunTimes2, Measures2] = ...
+                SegmentationAllMethods(ROII, ROIGT, ROIANT, fillInRT);
 
-                [measures1 measures2]
+                writetable(table([Measures1; Measures2]), strcat(SaveDir,...
+                    strcat(num2str(DatasetIdx), ...
+                    '-', num2str(ExamIdx), '-', num2str(ROIIdx), '-', ...
+                    num2str(AnnotationROINumber), '-Measures.csv')) )
+                writetable(table([IANTime,fillInRT]), strcat(SaveDir, ...
+                    strcat(num2str(DatasetIdx), '-', num2str(ExamIdx), ...
+                    '-', num2str(ROIIdx), '-', num2str(AnnotationROINumber), ...
+                    '-RunTimes.csv')))
                 
             end
-            return
-            
         end
-        
-        
-        return
-        
     end
-
-    
 end
+
