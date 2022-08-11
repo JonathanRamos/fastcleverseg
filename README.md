@@ -18,7 +18,7 @@ Ramos, et al. Fast and accurate spine MRI segmentation using FastCleverSeg. Jour
 ### Overall
 
  Table: Overall results with and without EANIS.
- Method          | HD (Voxels) | AUC | Precision | Recall | DiceScore 
+ Method          | \HD (Voxels) | AUC | Precision | Recall | DiceScore 
    :---:         | :---: | :---: | :---: | :---: | :---: 
 FastGrowCut      | 3.76 $\pm$ 2.48  |   77.00 $\pm$ 0.15   |  86.49 $\pm$ 0.20   |  84.26 $\pm$ 0.15   |  84.58 $\pm$  0.18
 FastCleverSeg    | 1.69 $\pm$ 1.21  |   84.69 $\pm$ 0.18   |  89.56 $\pm$ 0.21   |  89.13 $\pm$ 0.18   |  89.10 $\pm$  0.20
@@ -32,16 +32,6 @@ CleverSeg        | 1.57 $\pm$ 1.21  |   85.04 $\pm$ 0.19   |  89.54 $\pm$ 0.21  
 BalancedGrowth   | 2.47 $\pm$ 1.65  |   77.82 $\pm$ 0.15   |  85.04 $\pm$ 0.19   |  92.65 $\pm$ 0.13   |  88.16 $\pm$ 0.18
 GrowCut          | 1.88 $\pm$ 1.40  |   83.89 $\pm$ 0.18   |  89.13 $\pm$ 0.21   |  88.27 $\pm$ 0.18   |  88.42 $\pm$  0.20
 
-
-|             |          Grouping           ||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-Content       |          *Long Cell*        ||
-Content       |   **Cell**    |         Cell |
-
-New section   |     More      |         Data |
-And more      | With an escaped '\|'         ||  
-[Prototype table]
 
 ### Paravertebral Muscles
 
