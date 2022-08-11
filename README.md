@@ -20,8 +20,8 @@ Ramos, et al. Fast and accurate spine MRI segmentation using FastCleverSeg. Jour
  Table: Overall results with and without EANIS.
  Method  | HD (Voxels) | AUC | Precision | Recall | DiceScore 
    :---: | :---: | :---: | :---: | :---: | :---: 
-   
 FastGrowCut   | 3.76 $\pm$ 2.48  |   77.00 $\pm$ 0.15   |  86.49 $\pm$ 0.20   |  84.26 $\pm$ 0.15   |  84.58    0.18
+
 FastCleverSeg   | 1.69 $\pm$ 1.21  |   84.69 $\pm$ 0.18   |  89.56 $\pm$ 0.21   |  89.13 $\pm$ 0.18   |  89.10    0.20
 CleverSeg   | 2.59 $\pm$ 1.69  |   80.23 $\pm$ 0.16   |  87.17 $\pm$ 0.20   |  89.24 $\pm$ 0.16   |  87.71    0.19
 BalancedGrowth   | 1.49 $\pm$ 1.21  |   86.03 $\pm$ 0.19   |  90.23 $\pm$ 0.22   |  89.63 $\pm$ 0.19   |  89.72    0.21
