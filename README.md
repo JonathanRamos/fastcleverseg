@@ -18,7 +18,7 @@ Ramos, et al. Fast and accurate spine MRI segmentation using FastCleverSeg. Jour
 ### Overall
 
  Table: Overall results without EANIS.
- Method          |\ HD (Voxels) | AUC | Precision | Recall | DiceScore 
+ Method          | HD (Voxels) | AUC | Precision | Recall | DiceScore 
    :---:         | :---: | :---: | :---: | :---: | :---: 
 FastCleverSeg     | 3.63  $\pm$  2.32  | 79.61  $\pm$  0.16  | 88.67  $\pm$  0.21  | 81.70 $\pm$   0.17  | 84.41  $\pm$  0.19  | 16.40  $\pm$  0.29
 FastGrowCut       | 3.76  $\pm$  2.48  | 77.00 $\pm$   0.15  | 86.49  $\pm$  0.20  | 84.26  $\pm$  0.15  | 84.58  $\pm$  0.18  | 22.35  $\pm$  0.34
@@ -32,7 +32,7 @@ GrowCut           | 2.47  $\pm$  1.65  | 77.82  $\pm$  0.15  | 85.04  $\pm$  0.1
 
 
  Table: Overall results with EANIS.
- Method          |\ HD (Voxels) | AUC | Precision | Recall | DiceScore 
+ Method          | HD (Voxels) | AUC | Precision | Recall | DiceScore 
    :---:         | :---: | :---: | :---: | :---: | :---: 
 FastCleverSeg      |  1.58  $\pm$  1.13 |  85.86  $\pm$  0.19 |  90.46  $\pm$  0.22 |  88.51  $\pm$  0.19 |  89.26  $\pm$  0.21 |   9.09  $\pm$  0.15
 FastGrowCut      |  1.69  $\pm$  1.21 |  84.69  $\pm$  0.18 |  89.56 $\pm$   0.21 |  89.13 $\pm$   0.18 |  89.10  $\pm$  0.20 |  19.53 $\pm$   0.30
