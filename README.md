@@ -17,9 +17,10 @@ We made avaiable all our codes, datasets and results as follows:
 
 ## Results
 
-We present the results first considering all datasets (overall), then grouped by anatomical group (vertebrae, discs, and muscle).
+For individual results considering each anatomical group, clink on the links:
 
-### Overall
+We present the overall results as follows. 
+
 
  Table 1: Overall results without EANIS.
  Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%)
@@ -36,27 +37,6 @@ FastCleverSeg    |   8.2  $\pm$  3.03 |  89.8  $\pm$  0.04 |  94.6  $\pm$  0.03 
 CleverSeg        |   8.1  $\pm$  3.03 |  89.6  $\pm$  0.03 |  94.2  $\pm$  0.03 |  94.8  $\pm$  0.02 |  94.4 $\pm$   0.01
 FastGrowCut      |   9.9  $\pm$  5.37 |  88.2  $\pm$  0.04 |  93.7  $\pm$  0.03 |  93.3 $\pm$   0.02 |  93.5  $\pm$  0.02
 GrowCut          |   9.1  $\pm$  4.62 |  87.7  $\pm$  0.03 |  93.4  $\pm$  0.03 |  92.7  $\pm$  0.03 |  92.9  $\pm$  0.01
-
-
-
-
-
- 
- 
- 
-
-
-### Paravertebral Muscles
-
-### Intervertebral Discs
-
-### Vertebral Bodies 1
-
-### Vertebral Bodies 2
-
-### Vertebral Bodies 3
-
-### Vertebral Bodies 1-3
 
 
 
