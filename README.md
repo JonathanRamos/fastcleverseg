@@ -22,6 +22,8 @@ Results considering each anatomical group available at: [Muscles](PM/readme.md),
 Here, we present the overall results as follows: 
 
 
+### Results Without EANIS
+
  Table 1: Overall results without EANIS.
  Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%)
    :---:         | :---:       | :---: | :---:     | :---:  | :---:     
@@ -34,6 +36,8 @@ Figure 1: Example of annotations without EANIS.
 ![image](https://user-images.githubusercontent.com/3834596/184702022-bc7afb78-7e2a-4fc7-93f3-bdb978bca089.png)
 
 
+
+### Results With EANIS
  Table 2: Overall results with EANIS.
  Method          | HD (Voxels) | AUC (%)  | Precision (%) | Recall (%) | Dice Score  (%)
    :---:         | :---:       | :---: | :---:     | :---:  | :---:      
