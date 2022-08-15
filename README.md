@@ -17,7 +17,7 @@ We made avaiable all our codes, datasets and results as follows:
 
 ## Results
 
-For individual results considering each anatomical group, clink on the links: [Paravertebral musclesM](PM/readme.md), [intervertebral discs](IVD/readme.md), and [vertebral bodies](VBs/readme.md).
+For individual results considering each anatomical group, clink on the links: [Muscles](PM/readme.md), [Discs](IVD/readme.md), and [Vertebrae](VBs/readme.md).
 
 We present the overall results as follows. 
 
