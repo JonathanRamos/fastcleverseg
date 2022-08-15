@@ -17,7 +17,7 @@ We made avaiable all our codes, datasets and results as follows:
 
 ## Results
 
-We present the results first considering all datasets, then grouped by anatomical group (vertebrae, discs, and muscle).
+We present the results first considering all datasets (overall), then grouped by anatomical group (vertebrae, discs, and muscle).
 
 ### Overall
 
