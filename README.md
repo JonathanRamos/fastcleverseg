@@ -22,26 +22,35 @@ We present the results first considering all datasets (overall), then grouped by
 ### Overall
 
  Table: Overall results without EANIS.
- Method          | HD (Voxels) | AUC   | Precision | Recall | Dice Score | Run Time
-   :---:         | :---:       | :---: | :---:     | :---:  | :---:      | :---:
-FastCleverSeg     | 3.63  $\pm$  2.32  | 79.61  $\pm$  0.16  | 88.67  $\pm$  0.21  | 81.70 $\pm$   0.17  | 84.41  $\pm$  0.19  | 16.40  $\pm$  0.29 |
-FastGrowCut       | 3.76  $\pm$  2.48  | 77.00 $\pm$   0.15  | 86.49  $\pm$  0.20  | 84.26  $\pm$  0.15  | 84.58  $\pm$  0.18  | 22.35  $\pm$  0.34 |
-CleverSeg         | 2.47  $\pm$  1.65  | 77.82  $\pm$  0.15  | 85.04  $\pm$  0.19  | 92.65  $\pm$  0.13  | 88.16  $\pm$  0.18  | 90.47  $\pm$  1.89 |
-GrowCut           | 2.47  $\pm$  1.65  | 77.82  $\pm$  0.15  | 85.04  $\pm$  0.19  | 92.65  $\pm$  0.13  | 88.16  $\pm$  0.18  | 90.47  $\pm$  1.89 |
+ Method          | HD (Voxels) | AUC   | Precision | Recall | Dice Score 
+   :---:         | :---:       | :---: | :---:     | :---:  | :---:     
+FastCleverSeg     | 14.16 $\pm$   6.89 |  84.02  $\pm$  0.05 |  91.44  $\pm$  0.04 |  92.17  $\pm$  0.05 |  91.65  $\pm$   0.03
+FastGrowCut       | 17.91 $\pm$  10.08 |  80.12  $\pm$  0.07 |  90.43  $\pm$  0.06 |  86.52  $\pm$  0.08 |  88.04  $\pm$   0.05
+CleverSeg         | 13.13 $\pm$   6.43 |  84.26 $\pm$   0.05 |  91.13  $\pm$  0.04 |  93.67  $\pm$  0.04 |  92.25  $\pm$  0.02
+GrowCut           | 12.29 $\pm$   5.95 |  81.40 $\pm$   0.05 |  88.76  $\pm$  0.05 |  95.31  $\pm$  0.03 |  91.81  $\pm$  0.02
 
 
   
 
+     
   
+   
+
+
+   
+   
+  
+    
+    
 
 
  Table: Overall results with EANIS.
- Method          | HD (Voxels) | AUC   | Precision | Recall | Dice Score | Run Time
-   :---:         | :---:       | :---: | :---:     | :---:  | :---:      | :---:
-FastCleverSeg    |  1.58  $\pm$  1.13 |  85.86  $\pm$  0.19 |  90.46  $\pm$  0.22 |  88.51  $\pm$  0.19 |  89.26  $\pm$  0.21 |   9.09  $\pm$  0.15 |
-FastGrowCut      |  1.69  $\pm$  1.21 |  84.69  $\pm$  0.18 |  89.56  $\pm$  0.21 |  89.13 $\pm$   0.18 |  89.10  $\pm$  0.20 |  19.53 $\pm$   0.30 |
-CleverSeg        |  1.50  $\pm$  1.25 |  85.69  $\pm$  0.19 |  89.82  $\pm$  0.21 |  90.33  $\pm$  0.19 |  89.85  $\pm$  0.21 |  33.96  $\pm$  0.65 |
-GrowCut          |  1.88  $\pm$  1.40 |  83.89  $\pm$  0.18 |  89.13  $\pm$  0.21 |  88.27 $\pm$   0.18 |  88.42 $\pm$   0.20 |  57.99 $\pm$   1.20 |
+ Method          | HD (Voxels) | AUC   | Precision | Recall | Dice Score 
+   :---:         | :---:       | :---: | :---:     | :---:  | :---:      
+FastCleverSeg    |   8.16  $\pm$  3.03 |  89.81  $\pm$  0.04 |  94.57  $\pm$  0.03 |  94.22  $\pm$  0.02 |  94.34  $\pm$  0.01
+FastGrowCut      |   9.90  $\pm$  5.37 |  88.23  $\pm$  0.04 |  93.74  $\pm$  0.03 |  93.35 $\pm$   0.02 |  93.48  $\pm$  0.02
+CleverSeg        |   8.09  $\pm$  3.03 |  89.56  $\pm$  0.03 |  94.18  $\pm$  0.03 |  94.80  $\pm$  0.02 |  94.43 $\pm$   0.01
+GrowCut          |   9.11  $\pm$  4.62 |  87.71  $\pm$  0.03 |  93.37  $\pm$  0.03 |  92.69  $\pm$  0.03 |  92.92  $\pm$  0.01
 
 
 
