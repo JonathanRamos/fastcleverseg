@@ -30,6 +30,10 @@ CleverSeg         | 13.1 $\pm$   6.43 |  84.3 $\pm$   0.05 |  91.1  $\pm$  0.04 
 FastGrowCut       | 17.9 $\pm$  10.08 |  80.1  $\pm$  0.07 |  90.4  $\pm$  0.06 |  86.5  $\pm$  0.08 |  88.0  $\pm$   0.05
 GrowCut           | 12.3 $\pm$   5.95 |  81.4 $\pm$   0.05 |  88.7  $\pm$  0.05 |  95.3  $\pm$  0.03 |  91.8  $\pm$  0.02
 
+Figure 1: Example of annotations without EANIS. 
+![image](https://user-images.githubusercontent.com/3834596/184702022-bc7afb78-7e2a-4fc7-93f3-bdb978bca089.png)
+
+
  Table 2: Overall results with EANIS.
  Method          | HD (Voxels) | AUC (%)  | Precision (%) | Recall (%) | Dice Score  (%)
    :---:         | :---:       | :---: | :---:     | :---:  | :---:      
