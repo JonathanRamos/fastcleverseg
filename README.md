@@ -12,9 +12,8 @@ Ramos, et al. Fast and accurate spine MRI segmentation using FastCleverSeg. Jour
 - [Results](Results)
 
 
-## Abstract
-The segmentation of vertebral bodies, muscles, and discs is a crucial step for getting accurate measurement, quantification, and analysis of spine-related diseases.
-Fully automatic segmentation using deep learning approaches requires thousands of samples to achieve reliable results, whose production may require manually drawing precise elements\textquotesingle\ boundaries. Since the manual approach is time-consuming and impractical to perform for a large number of exams, semi-automatic segmentation tools minimize the labor-intensiveness by using minimal user input.  Aimed at speeding-up the manual annotation process and, at the same time, producing accurate volumetric segmentation, we propose \fastcleverseg. The experimental evaluation with several MRI databases from distinct hospitals shows that our approach can considerably speed up the manual annotation process with a Dice Score of 94\% and the fastest processing time ($25 \pm 30$ ms).
+## Short Abstract
+Since the manual segmentation is time-consuming and impractical to perform for a large number of exams, semi-automatic segmentation tools minimize the labor-intensiveness by using minimal user input. We propose FastCleverSeg, in which the experimental evaluation with several MRI databases from distinct hospitals showed that our approach can considerably speed up the manual annotation process with a Dice Score of 94\% and the fastest processing time ($25 \pm 30$ ms).
 Therefore, our approaches can aid physicians in producing reliable ground-truths in a fast manner, speeding up the laborious task of manually segmenting regions of interest.
 
 
