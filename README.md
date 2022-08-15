@@ -24,33 +24,18 @@ We present the results first considering all datasets (overall), then grouped by
  Table: Overall results without EANIS.
  Method          | HD (Voxels) | AUC   | Precision | Recall | Dice Score 
    :---:         | :---:       | :---: | :---:     | :---:  | :---:     
-FastCleverSeg     | 14.16 $\pm$   6.89 |  84.02  $\pm$  0.05 |  91.44  $\pm$  0.04 |  92.17  $\pm$  0.05 |  91.65  $\pm$   0.03
-FastGrowCut       | 17.91 $\pm$  10.08 |  80.12  $\pm$  0.07 |  90.43  $\pm$  0.06 |  86.52  $\pm$  0.08 |  88.04  $\pm$   0.05
-CleverSeg         | 13.13 $\pm$   6.43 |  84.26 $\pm$   0.05 |  91.13  $\pm$  0.04 |  93.67  $\pm$  0.04 |  92.25  $\pm$  0.02
-GrowCut           | 12.29 $\pm$   5.95 |  81.40 $\pm$   0.05 |  88.76  $\pm$  0.05 |  95.31  $\pm$  0.03 |  91.81  $\pm$  0.02
-
-
-  
-
-     
-  
-   
-
-
-   
-   
-  
-    
-    
-
+FastCleverSeg     | 14.2 $\pm$   6.89 |  84.0  $\pm$  0.05 |  91.4  $\pm$  0.04 |  92.2  $\pm$  0.05 |  91.6  $\pm$   0.03
+CleverSeg         | 13.1 $\pm$   6.43 |  84.3 $\pm$   0.05 |  91.1  $\pm$  0.04 |  93.7  $\pm$  0.04 |  92.2  $\pm$  0.02
+FastGrowCut       | 17.9 $\pm$  10.08 |  80.1  $\pm$  0.07 |  90.4  $\pm$  0.06 |  86.5  $\pm$  0.08 |  88.0  $\pm$   0.05
+GrowCut           | 12.3 $\pm$   5.95 |  81.4 $\pm$   0.05 |  88.7  $\pm$  0.05 |  95.3  $\pm$  0.03 |  91.8  $\pm$  0.02
 
  Table: Overall results with EANIS.
  Method          | HD (Voxels) | AUC   | Precision | Recall | Dice Score 
    :---:         | :---:       | :---: | :---:     | :---:  | :---:      
-FastCleverSeg    |   8.16  $\pm$  3.03 |  89.81  $\pm$  0.04 |  94.57  $\pm$  0.03 |  94.22  $\pm$  0.02 |  94.34  $\pm$  0.01
-FastGrowCut      |   9.90  $\pm$  5.37 |  88.23  $\pm$  0.04 |  93.74  $\pm$  0.03 |  93.35 $\pm$   0.02 |  93.48  $\pm$  0.02
-CleverSeg        |   8.09  $\pm$  3.03 |  89.56  $\pm$  0.03 |  94.18  $\pm$  0.03 |  94.80  $\pm$  0.02 |  94.43 $\pm$   0.01
-GrowCut          |   9.11  $\pm$  4.62 |  87.71  $\pm$  0.03 |  93.37  $\pm$  0.03 |  92.69  $\pm$  0.03 |  92.92  $\pm$  0.01
+FastCleverSeg    |   8.2  $\pm$  3.03 |  89.8  $\pm$  0.04 |  94.6  $\pm$  0.03 |  94.2  $\pm$  0.02 |  94.3  $\pm$  0.01
+CleverSeg        |   8.1  $\pm$  3.03 |  89.6  $\pm$  0.03 |  94.2  $\pm$  0.03 |  94.8  $\pm$  0.02 |  94.4 $\pm$   0.01
+FastGrowCut      |   9.9  $\pm$  5.37 |  88.2  $\pm$  0.04 |  93.7  $\pm$  0.03 |  93.3 $\pm$   0.02 |  93.5  $\pm$  0.02
+GrowCut          |   9.1  $\pm$  4.62 |  87.7  $\pm$  0.03 |  93.4  $\pm$  0.03 |  92.7  $\pm$  0.03 |  92.9  $\pm$  0.01
 
 
 
