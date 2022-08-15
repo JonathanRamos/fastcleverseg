@@ -2,14 +2,13 @@
 Since the manual segmentation is time-consuming and impractical to perform for a large number of exams, semi-automatic segmentation tools minimize the labor-intensiveness by using minimal user input. We propose FastCleverSeg, in which the experimental evaluation with several MRI databases from distinct hospitals showed that our approach can considerably speed up the manual annotation process with a Dice Score of 94\% and the fastest processing time ($25 \pm 30$ ms).
 Therefore, our approaches can aid physicians in producing reliable ground-truths in a fast manner, speeding up the laborious task of manually segmenting regions of interest.
 
-## Overview
 **If you use any part of this repository, please cite:**
 
 ```
 Ramos, et al. Fast and accurate spine MRI segmentation using FastCleverSeg. Journal here, 2022.
 ```
 
-
+We made avaiable all our codes, datasets and results as follows:
 - [Algorithms and codes](Codes/OldMatlab)
 - [Image Datasets](ImageDatasets)
 - [Results](Results)
