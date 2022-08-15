@@ -17,9 +17,9 @@ We made avaiable all our codes, datasets and results as follows:
 
 ## Results
 
-For individual results considering each anatomical group, clink on the links: [Muscles](PM/readme.md), [Discs](IVD/readme.md), and [Vertebrae](VBs/readme.md).
+Results considering each anatomical group available at: [Muscles](PM/readme.md), [Discs](IVD/readme.md), and [Vertebrae](VBs/readme.md).
 
-We present the overall results as follows. 
+Here, we present the overall results as follows: 
 
 
  Table 1: Overall results without EANIS.
