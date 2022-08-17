@@ -31,13 +31,16 @@ Figure 2: Example of annotations.
  Table 1: Overall average results (standard deviation represented by $\pm$ ).
  Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%) | Run Time (milliseconds)
    :---:         | :---:       | :---: | :---:     | :---:  | :---:  | :---:    
-FastCleverSeg     | 9.7 $\pm$  4.41 | 81.1 $\pm$ 0.21 | 86.1 $\pm$ 0.25 | 87.2 $\pm$ 0.21 | 86.2 $\pm$ 0.24 |  35	 $\pm$ 47
-CleverSeg         | 9.6 $\pm$  4.61 | 80.3 $\pm$ 0.21 | 85.5 $\pm$ 0.25 | 87.9 $\pm$ 0.21 | 86.3 $\pm$ 0.24 |  345 $\pm$ 569
-FastGrowCut       | 9.9 $\pm$  5.08 | 80.5 $\pm$ 0.21 | 85.9 $\pm$ 0.25 | 86.8 $\pm$ 0.21 | 85.9 $\pm$ 0.24 |  84	 $\pm$ 138
-GrowCut           | 10.4 $\pm$ 5.40 | 77.7 $\pm$ 0.19 | 84.1 $\pm$ 0.24 | 87.6 $\pm$ 0.19 | 85.2 $\pm$ 0.22 |  254	$\pm$ 501
+FastCleverSeg     | 8.16  $\pm$  3.03  |   89.81  $\pm$  0.04  |   94.57 $\pm$   0.03  |   94.22  $\pm$  0.02  |   94.34 $\pm$   0.01  |    0.04  $\pm$  0.07
+CleverSeg         | 8.09  $\pm$  3.03  |   89.56  $\pm$  0.03  |   94.18 $\pm$   0.03  |   94.80  $\pm$  0.02  |   94.43 $\pm$   0.01  |    0.32 $\pm$   0.59
+FastGrowCut       | 9.90  $\pm$  5.37  |   88.23  $\pm$  0.04  |   93.74 $\pm$   0.03  |   93.35  $\pm$  0.02  |   93.48 $\pm$   0.02  |    0.13 $\pm$   0.18
+GrowCut           | 9.11  $\pm$  4.62  |   87.71  $\pm$  0.03  |   93.37 $\pm$   0.03  |   92.69 $\pm$   0.03  |   92.92 $\pm$   0.01  |    0.48 $\pm$   0.93
 
 
-
+    
+    
+    
+    
 
 
 ### Results With EANIS
