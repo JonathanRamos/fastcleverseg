@@ -29,18 +29,15 @@ Figure 2: Example of annotations.
 ![image](https://user-images.githubusercontent.com/3834596/185255452-388fc85d-9fd7-4cba-a47d-665b0b415d0d.png)
 
  Table 1: Overall results.
- Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%)
-   :---:         | :---:       | :---: | :---:     | :---:  | :---:     
-FastCleverSeg     | 9.7 $\pm$  4.41 | 81.1 $\pm$ 0.21 | 86.1 $\pm$ 0.25 | 87.2 $\pm$ 0.21 | 86.2 $\pm$ 0.24
-CleverSeg         | 9.6 $\pm$  4.61 | 80.3 $\pm$ 0.21 | 85.5 $\pm$ 0.25 | 87.9 $\pm$ 0.21 | 86.3 $\pm$ 0.24
-FastGrowCut       | 9.9 $\pm$  5.08 | 80.5 $\pm$ 0.21 | 85.9 $\pm$ 0.25 | 86.8 $\pm$ 0.21 | 85.9 $\pm$ 0.24
-GrowCut           | 10.4 $\pm$ 5.40 | 77.7 $\pm$ 0.19 | 84.1 $\pm$ 0.24 | 87.6 $\pm$ 0.19 | 85.2 $\pm$ 0.22
+ Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%) | Run Time (seconds)
+   :---:         | :---:       | :---: | :---:     | :---:  | :---:  | :---:    
+FastCleverSeg     | 9.7 $\pm$  4.41 | 81.1 $\pm$ 0.21 | 86.1 $\pm$ 0.25 | 87.2 $\pm$ 0.21 | 86.2 $\pm$ 0.24 |  0.035 $\pm$   0.048
+CleverSeg         | 9.6 $\pm$  4.61 | 80.3 $\pm$ 0.21 | 85.5 $\pm$ 0.25 | 87.9 $\pm$ 0.21 | 86.3 $\pm$ 0.24 |  0.345 $\pm$   0.569
+FastGrowCut       | 9.9 $\pm$  5.08 | 80.5 $\pm$ 0.21 | 85.9 $\pm$ 0.25 | 86.8 $\pm$ 0.21 | 85.9 $\pm$ 0.24 |  0.084 $\pm$   0.139
+GrowCut           | 10.4 $\pm$ 5.40 | 77.7 $\pm$ 0.19 | 84.1 $\pm$ 0.24 | 87.6 $\pm$ 0.19 | 85.2 $\pm$ 0.22 |  0.254 $\pm$   0.502
 
 
 ### Results With EANIS
-
-
-
 
 
 
