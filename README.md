@@ -15,6 +15,7 @@ We made avaiable all our codes, datasets and results as follows:
 
 
 
+
 ## Results
 
 Results considering each anatomical group available at: [Muscles](PM/readme.md), [Discs](IVD/readme.md), and [Vertebrae](VBs/readme.md).
@@ -25,7 +26,7 @@ Here, we present the overall results as follows:
 ### Results Without EANIS
 
 Figure 2: Example of annotations. 
-![image](![image](https://user-images.githubusercontent.com/3834596/185255422-54b421c4-6504-4ad4-8ed1-1d1c3ef37a09.png))
+![image](https://user-images.githubusercontent.com/3834596/185255452-388fc85d-9fd7-4cba-a47d-665b0b415d0d.png)
 
  Table 1: Overall results without EANIS.
  Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%)
