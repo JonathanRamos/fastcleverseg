@@ -28,7 +28,7 @@ Here, we present the overall results as follows:
 Figure 2: Example of annotations. 
 ![image](https://user-images.githubusercontent.com/3834596/185255452-388fc85d-9fd7-4cba-a47d-665b0b415d0d.png)
 
- Table 1: Overall results without EANIS.
+ Table 1: Overall results.
  Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%)
    :---:         | :---:       | :---: | :---:     | :---:  | :---:     
 FastCleverSeg     | 9.70 $\pm$  4.41 | 81.07 $\pm$ 0.21 | 86.11 $\pm$ 0.25 | 87.16 $\pm$ 0.21 | 86.22 $\pm$ 0.24
