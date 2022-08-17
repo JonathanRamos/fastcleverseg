@@ -28,7 +28,7 @@ Here, we present the overall results as follows:
 Figure 2: Example of annotations. 
 ![image](https://user-images.githubusercontent.com/3834596/185255452-388fc85d-9fd7-4cba-a47d-665b0b415d0d.png)
 
- Table 1: Overall results (averages values and standar deviation represented by $\pm$ ).
+ Table 1: Overall average results (standard deviation represented by $\pm$ ).
  Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%) | Run Time (seconds)
    :---:         | :---:       | :---: | :---:     | :---:  | :---:  | :---:    
 FastCleverSeg     | 9.7 $\pm$  4.41 | 81.1 $\pm$ 0.21 | 86.1 $\pm$ 0.25 | 87.2 $\pm$ 0.21 | 86.2 $\pm$ 0.24 |  0.035 $\pm$   0.048
