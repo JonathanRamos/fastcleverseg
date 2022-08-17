@@ -30,13 +30,10 @@ Figure 1: Example of annotations without EANIS.
  Table 1: Overall results without EANIS.
  Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%)
    :---:         | :---:       | :---: | :---:     | :---:  | :---:     
-FastCleverSeg     | 14.2 $\pm$   6.89 |  84.0  $\pm$  0.05 |  91.4  $\pm$  0.04 |  92.2  $\pm$  0.05 |  91.6  $\pm$   0.03
-CleverSeg         | 13.1 $\pm$   6.43 |  84.3 $\pm$   0.05 |  91.1  $\pm$  0.04 |  93.7  $\pm$  0.04 |  92.2  $\pm$  0.02
-FastGrowCut       | 17.9 $\pm$  10.08 |  80.1  $\pm$  0.07 |  90.4  $\pm$  0.06 |  86.5  $\pm$  0.08 |  88.0  $\pm$   0.05
-GrowCut           | 12.3 $\pm$   5.95 |  81.4 $\pm$   0.05 |  88.7  $\pm$  0.05 |  95.3  $\pm$  0.03 |  91.8  $\pm$  0.02
-
-
-
+FastCleverSeg     | 9.70 $\pm$  4.41 | 81.07 $\pm$ 0.21 | 86.11 $\pm$ 0.25 | 87.16 $\pm$ 0.21 | 86.22 $\pm$ 0.24
+CleverSeg         | 9.65 $\pm$  4.61 | 80.30 $\pm$ 0.21 | 85.46 $\pm$ 0.25 | 87.92 $\pm$ 0.21 | 86.26 $\pm$ 0.24
+FastGrowCut       | 9.96 $\pm$  5.08 | 80.54 $\pm$ 0.21 | 85.90 $\pm$ 0.25 | 86.80 $\pm$ 0.21 | 85.95 $\pm$ 0.24
+GrowCut           | 10.38 $\pm$ 5.40 | 77.70 $\pm$ 0.19 | 84.05 $\pm$ 0.24 | 87.64 $\pm$ 0.19 | 85.22 $\pm$ 0.22
 
 
 ### Results With EANIS
@@ -46,13 +43,6 @@ Figure 2: Example of annotations with EANIS.
 
 
 
- Table 2: Overall results with EANIS.
- Method          | HD (Voxels) | AUC (%)  | Precision (%) | Recall (%) | Dice Score  (%)
-   :---:         | :---:       | :---: | :---:     | :---:  | :---:      
-FastCleverSeg    |   8.2  $\pm$  3.03 |  89.8  $\pm$  0.04 |  94.6  $\pm$  0.03 |  94.2  $\pm$  0.02 |  94.3  $\pm$  0.01
-CleverSeg        |   8.1  $\pm$  3.03 |  89.6  $\pm$  0.03 |  94.2  $\pm$  0.03 |  94.8  $\pm$  0.02 |  94.4 $\pm$   0.01
-FastGrowCut      |   9.9  $\pm$  5.37 |  88.2  $\pm$  0.04 |  93.7  $\pm$  0.03 |  93.3 $\pm$   0.02 |  93.5  $\pm$  0.02
-GrowCut          |   9.1  $\pm$  4.62 |  87.7  $\pm$  0.03 |  93.4  $\pm$  0.03 |  92.7  $\pm$  0.03 |  92.9  $\pm$  0.01
 
 ### RunTime Comparison
 
