@@ -24,8 +24,8 @@ Here, we present the overall results as follows:
 
 ### Results Without EANIS
 
-Figure 1: Example of annotations without EANIS. 
-![image](https://user-images.githubusercontent.com/3834596/184702022-bc7afb78-7e2a-4fc7-93f3-bdb978bca089.png)
+Figure 2: Example of annotations. 
+![image](https://user-images.githubusercontent.com/3834596/184703280-5d3afdcb-6051-499d-a167-bfe716971a77.png)
 
  Table 1: Overall results without EANIS.
  Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%)
@@ -38,8 +38,7 @@ GrowCut           | 10.38 $\pm$ 5.40 | 77.70 $\pm$ 0.19 | 84.05 $\pm$ 0.24 | 87.
 
 ### Results With EANIS
 
-Figure 2: Example of annotations with EANIS. 
-![image](https://user-images.githubusercontent.com/3834596/184703280-5d3afdcb-6051-499d-a167-bfe716971a77.png)
+
 
 
 
