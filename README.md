@@ -28,29 +28,7 @@ Here, we present the overall results as follows:
 Figure 2: Example of annotations. 
 ![image](https://user-images.githubusercontent.com/3834596/185267331-a82065f1-4d17-4549-8d09-4431d59949ad.png)
 
- Table 1: Overall average results (standard deviation represented by $\pm$ ).
- Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%) | Run Time (milliseconds)
-   :---:         | :---:       | :---: | :---:     | :---:  | :---:  | :---:    
-FastCleverSeg     | 8.16  $\pm$  3.03  |   89.81  $\pm$  0.04  |   94.57 $\pm$   0.03  |   94.22  $\pm$  0.02  |   94.34 $\pm$   0.01  |    0.04  $\pm$  0.07
-CleverSeg         | 8.09  $\pm$  3.03  |   89.56  $\pm$  0.03  |   94.18 $\pm$   0.03  |   94.80  $\pm$  0.02  |   94.43 $\pm$   0.01  |    0.32 $\pm$   0.59
-FastGrowCut       | 9.90  $\pm$  5.37  |   88.23  $\pm$  0.04  |   93.74 $\pm$   0.03  |   93.35  $\pm$  0.02  |   93.48 $\pm$   0.02  |    0.13 $\pm$   0.18
-GrowCut           | 9.11  $\pm$  4.62  |   87.71  $\pm$  0.03  |   93.37 $\pm$   0.03  |   92.69 $\pm$   0.03  |   92.92 $\pm$   0.01  |    0.48 $\pm$   0.93
-
-
-    
-    
-    
-    
-
-
-### Results With EANIS
-
-
-
-### RunTime Comparison
-
-Figure 3: Run-Time comparison considering every segmentation method with and without EANIS. Average values represented by $\otimes$.
+Figure 3: Overall results comparison
 ![image](https://user-images.githubusercontent.com/3834596/185266101-82bed07e-3745-40f5-a385-a3c9d2301871.png)
-
 
 
