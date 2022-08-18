@@ -50,7 +50,7 @@ GrowCut           | 9.11  $\pm$  4.62  |   87.71  $\pm$  0.03  |   93.37 $\pm$  
 ### RunTime Comparison
 
 Figure 3: Run-Time comparison considering every segmentation method with and without EANIS. Average values represented by $\otimes$.
-![image](https://user-images.githubusercontent.com/3834596/184704772-9acd11c5-8216-4858-83a8-c074f5f511de.png)
+![image](https://user-images.githubusercontent.com/3834596/185266101-82bed07e-3745-40f5-a385-a3c9d2301871.png)
 
 
 
