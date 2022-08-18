@@ -26,7 +26,7 @@ Here, we present the overall results as follows:
 ### Results Without EANIS
 
 Figure 2: Example of annotations. 
-![image](https://user-images.githubusercontent.com/3834596/185255452-388fc85d-9fd7-4cba-a47d-665b0b415d0d.png)
+![image](https://user-images.githubusercontent.com/3834596/185267331-a82065f1-4d17-4549-8d09-4431d59949ad.png)
 
  Table 1: Overall average results (standard deviation represented by $\pm$ ).
  Method          | HD (Voxels) | AUC (%)   | Precision (%) | Recall (%) | Dice Score  (%) | Run Time (milliseconds)
