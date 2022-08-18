@@ -33,5 +33,7 @@ Figure 3: Overall results comparison
 
 
 Figure 4: Segmentation Results Comparison.
+![image](https://user-images.githubusercontent.com/3834596/185318153-70e867fb-b690-405c-9a15-48c32c5831c0.png)
+
 
 
