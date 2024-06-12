@@ -21,7 +21,7 @@ We made avaiable all our codes, datasets and results as follows:
 
 ## Results
 
-Results considering each anatomical group available at: [Muscles](../../tree/main/PM/readme.md), [Discs](../../tree/main/IVD/readme.md), and [Vertebrae](../../tree/main/VBs/readme.md).
+Results considering each anatomical group available at: [Muscles](../../tree/main/ImageDatasets/PM/readme.md), [Discs](../../tree/main/ImageDatasets/IVD/readme.md), and [Vertebrae](../../tree/main/ImageDatasets/VBs/readme.md).
 
 Here, we present the overall results as follows: 
 
