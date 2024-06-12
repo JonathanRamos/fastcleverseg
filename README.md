@@ -12,7 +12,7 @@ https://doi.org/10.1016/j.mri.2024.03.021.
 ```
 
 We made avaiable all our codes, datasets and results as follows:
-- [Algorithms and codes](../../tree/main/Codes/OldMatlab)
+- [Algorithms and codes](../../tree/main/Codes)
 - [Image Datasets](../../tree/main/ImageDatasets)
 - [Results](../../tree/main/Results)
 
