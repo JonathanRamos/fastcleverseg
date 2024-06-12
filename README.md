@@ -5,7 +5,10 @@ Therefore, our approaches can aid physicians in producing reliable ground-truths
 **If you use any part of this repository, please cite:**
 
 ```
-Jonathan S. Ramoset al., Fast and accurate 3-D spine MRI segmentation using FastCleverSeg, Magnetic Resonance Imaging, Volume 109, 2024, Pages 134-146, ISSN 0730-725X, https://doi.org/10.1016/j.mri.2024.03.021. (https://www.sciencedirect.com/science/article/pii/S0730725X24000778)
+Jonathan S. Ramoset al., Fast and accurate 3-D spine MRI segmentation using FastCleverSeg,
+Magnetic Resonance Imaging, Volume 109, 2024, Pages 134-146, ISSN 0730-725X,
+https://doi.org/10.1016/j.mri.2024.03.021.
+(https://www.sciencedirect.com/science/article/pii/S0730725X24000778)
 ```
 
 We made avaiable all our codes, datasets and results as follows:
