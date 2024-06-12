@@ -12,16 +12,16 @@ https://doi.org/10.1016/j.mri.2024.03.021.
 ```
 
 We made avaiable all our codes, datasets and results as follows:
-- [Algorithms and codes](Codes/OldMatlab)
-- [Image Datasets](ImageDatasets)
-- [Results](Results)
+- [Algorithms and codes](../../tree/main/Codes/OldMatlab)
+- [Image Datasets](../../tree/main/ImageDatasets)
+- [Results](../../tree/main/Results)
 
 
 
 
 ## Results
 
-Results considering each anatomical group available at: [Muscles](PM/readme.md), [Discs](IVD/readme.md), and [Vertebrae](VBs/readme.md).
+Results considering each anatomical group available at: [Muscles](../../tree/main/PM/readme.md), [Discs](../../tree/main/IVD/readme.md), and [Vertebrae](../../tree/main/VBs/readme.md).
 
 Here, we present the overall results as follows: 
 
